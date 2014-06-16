@@ -1,0 +1,26 @@
+{
+  "name": "css-mq",
+  "version": "0.0.1",
+  "description": "Analize CSS Media Queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "colored-tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/css-mq/git"
+  },
+  "keywords": [
+    "css",
+    "media query"
+  ],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "dependencies": {
+    "css-parse": "^1.7.0"
+  },
+  "devDependencies": {
+    "tap": "^0.4.11",
+    "colored-tape": "^1.0.1"
+  }
+}
