@@ -10,6 +10,17 @@ $ npm install css-mq
 
 ## Example
 
+```javascript
+var mq = require('css-mq')
+var css = "@media screen and (max-width: 1000px) {#container{width : 95%;}}"
+
+mq.media(css)
+// ["screen and (max-width: 1000px)"]
+
+mq.borders(css)
+// ["1000px"]
+```
+
 ## License
 
 The MIT License (MIT)
