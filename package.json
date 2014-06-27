@@ -1,6 +1,6 @@
 {
   "name": "css-mq",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Analize CSS Media Queries",
   "main": "index.js",
   "scripts": {
