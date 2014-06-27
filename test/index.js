@@ -20,3 +20,12 @@ test('mq.borders', function (t) {
 
     t.end();
 });
+
+test('mq.match', function (t) {
+    var result = mq.match(css, '500px')
+    var expected = [ 'screen and (max-width: 1000px)' ]
+
+    t.same(result, expected)
+
+    t.end();
+})
